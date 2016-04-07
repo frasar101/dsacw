@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry exported="true" kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="src/main/java">
+		<attributes>
+			<attribute name="org.eclipse.jdt.launching.CLASSPATH_ATTR_LIBRARY_PATH_ENTRY" value="C:/Users/Fraser/Downloads/azure-storage-java-master/azure-storage-java-master/microsoft-azure-storage/src/com/microsoft/azure/storage"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry exported="true" kind="var" path="ECLIPSE_WORKSPACE/.metadata/.plugins/org.wso2.developerstudio.eclipse.libraries/lib/jsr311-api-1.1.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Fraser/Downloads/SSS_Java/SSS_Java/lib/FlexiProvider-1.7p7.signed.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Fraser/Downloads/SSS_Java/SSS_Java/lib/bcprov-jdk15on-1.52.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/Fraser/Downloads/apache-tomcat-7.0.68-windows-x86/apache-tomcat-7.0.68/lib/servlet-api.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Program Files/Java/jdk1.8.0_73/jre/lib/sss.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/Fraser/Downloads/wso2as-5.3.0/wso2as-5.3.0/repository/components/lib/bouncycastle-jce-jdk13-112.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Fraser/Downloads/mysql-connector-java-5.1.38/mysql-connector-java-5.1.38/mysql-connector-java-5.1.38-bin.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Fraser/Downloads/azure-storage-1.2.0.jar"/>
+	<classpathentry kind="output" path="target"/>
+</classpath>

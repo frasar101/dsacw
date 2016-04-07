@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html><head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Secret Share System</title>
+</head>
+<body>
+	<h1>Secret Share System</h1>
+	<br>
+	<p>Welcome to the Secret Share System. This system is designed to upload and download your chosen files
+	securely, using cloud vendors. This is the main page, which allows you to change your details, choose a file to upload or download, add a storage account,
+	and lastly log out. 
+
+	Thank you for choosing this to securely transfer your files. Before you upload a file, please make sure that you have added enough storage accounts. There must be enough accounts so that no more shares than the threshold should be stored within one account.
+	</p>
+    <h2>Manage User Details</h2>
+    Please feel free to change any of your preferences.
+    <form action="ManageServlet" method="POST">
+    	<p>Change your current password or your Secret share values. Any fields that you do not wish to change, leave blank.
+    	<p>New N (Number of shares) value: <input type="number" name="Nvalue">
+    	<p>New T (Threshold of necessary shares) value: <input type="number" name="Tvalue">
+    	<p><input type="submit" name="changevalues" value="values">
+    	<br>
+    	<h1>Change Password</h1>
+    	<p>Password: <input type="password" name="password">
+    	<p><input type="submit" name="chpass" value="change" >
+    	<br>
+    	<h1>Download Location</h1>
+    	<p>Please type in a valid file path for your downloaded files to be placed in: <input type="text" name="downloadloc">
+		<p><input type="submit" name="downlocbutt" value="Change download location"></p>
+		<br>
+		<p>Please add storage accounts you wish to use. Copy and paste the Connection string: <input type="text" name="connstring"> Enter the container name/reference: <input type="text" name="contref">
+		<p><input type="submit" name="addstoreaccount" value="Add Account" >
+    </form>
+    <br>
+    
+    <h2>File Download/Upload</h2>
+    Please select a file to upload or download
+    <form action="FileServlet" method="POST">
+    	<p>Please click on either download or upload, which shall let you select a file to upload securely, or retrieve.</p>
+    	<p><input type="submit" name="uploadsubmit" value="upload">
+    	<p><input type="submit" name="downloadsubmit" value="download">
+    </form>
+    <br>
+    
+    <form action="LogoutServlet" method="POST">
+    <p><br><input type="submit" value="Log Out"></p>
+    </form>
+    
+</body></html>
